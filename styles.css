@@ -1,0 +1,80 @@
+img{
+  display: block;
+  max-width: 100%
+}
+body{
+   min-width: 100vw;
+   min-height: 100vh;
+  background-color: rgba(0,0,255,0.1);
+  
+  max-width: 800px;
+ 
+  align-items: center;
+}
+header{
+  text-align: center;
+}
+header > p {
+  font-family: sans-serif;
+  margin-top: -15;
+  margin-bottom:25;
+}
+.wrapper{
+   column-count: 2;
+  column-gap: 0px;
+  margin-left: 0px;
+}
+.early{
+  text-align: center;
+  border-bottom: 4px double grey;
+  margin-top: 40px;
+}
+.fig1{
+ min-width: 21rem;
+ margin-left: 10;
+ margin-bottom: 25px;
+}
+#image{
+  aspect-ratio:30/50;
+
+}
+#img-caption{
+  font-size: 12px;
+}
+.sections{
+  font-size: 16px;
+  display: flex;
+  object-fit: cover;
+ background-image: url("https://d17t27i218htgr.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWs1T0daa016WmlZUzAzTVdSaUxUUXlZemt0WVRKbE9TMDBOVGd4TUdJNFl6ZGtOamNHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--9c0870dd9b5bbaf2eb7ba8eb3c1d860af3044470/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFKMEJEQTZDbk5oZG1WeWV3YzZDbk4wY21sd1ZEb01jWFZoYkdsMGVXbGEiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--1c7024a85a37f1fbbfd98fd68143bf22d9453fd5/NelsonMandela.jpg");
+ margin-top: 20;
+}
+
+.acclaimed,.tribute{
+  background-color: rgba(255,255,245,0.6);
+ text-shadow: 2px 2px 3px  rgba(126, 110, 126, 0.8);
+}
+.tribute > ul > li{
+  padding: 10
+}
+stan{
+  font-weight: 900
+}
+.sec2 > ul > li {
+  padding: 10px
+}
+.sec2{
+  background-image: url("htt");
+  background-repeat: no-repeat;
+}
+footer{
+  text-align: center;
+  padding: 25px;
+  font-weight: 900;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+a:hover{
+color: purple
+}
